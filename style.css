@@ -142,3 +142,168 @@ transform: scale(1.03);
     font-size: 17px;
     line-height: 1.7;
 }
+
+.funcionarios{
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.funcionarios h2{
+    text-align: left;
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+.citacao{
+    margin-bottom: 50px;
+}
+
+.citacao p{
+    text-align: left;
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+.Leticia{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.Katryn{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.Jane{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.foto-Leticia{
+    flex-shrink: 0;
+}
+
+.foto-Leticia img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+.foto-Katryn{
+    flex-shrink: 0;
+}
+
+.foto-Katryn img{
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 12px;
+}
+
+.foto-Jane{
+    flex-shrink: 0;
+}
+
+.foto-Jane img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 12px;
+}
+
+.informacoes-Leticia{
+    flex: 1;
+}
+
+.informacoes-Leticia h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Leticia p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.informacoes-Katryn{
+    flex: 1;
+}
+
+.informacoes-Katryn h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Katryn p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.informacoes-Jane{
+    flex: 1;
+}
+
+.informacoes-Jane h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Jane p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
