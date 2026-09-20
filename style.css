@@ -71,3 +71,74 @@ transition: 0.3s;
 background-color: #2471a3;
 transform: scale(1.03);
 }
+
+.explicacao{
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px 50px;
+}
+
+.assistencia-social{
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px 50px;
+}
+
+.explicacao h2, 
+.assistencia-social h2{
+    text-align: left;
+    color: #2563eb;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.explicacao p,
+.assistencia-social p{
+    text-align: left;
+    color: #444;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin-bottom: 25px;
+}
+
+.programas{
+    margin-top: 40px;
+}
+
+.programas {
+    background: white;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.programas h2 {
+    color: #2563eb;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.programas p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    text-align: left;
+}
+
+.texto-assistencia {
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.texto-assistencia p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+}
