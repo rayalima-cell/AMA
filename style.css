@@ -452,154 +452,149 @@ transform: scale(1.03);
     text-align: left;
 }
 
+/* =========================
+   EMPRESAS
+   ========================= */
+
 .empresas{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
 }
 
-.Weg{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
+/* Título de cada empresa */
+.empresas h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-.Lunelli{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
+/* Texto das empresas */
+.empresas p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    text-align: left;
 }
 
-.SENAI{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
-}
-
-.COOPER{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
-}
-
-.Marisol{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
-}
-
+/* Cada empresa */
+.Weg,
+.Lunelli,
+.SENAI,
+.COOPER,
+.Marisol,
 .AMBIENTAL{
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    max-width: 1000px; 
-    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-.Weg-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
+/* Imagens das empresas */
+.Weg img,
+.Lunelli img,
+.SENAI img,
+.COOPER img,
+.Marisol img,
+.AMBIENTAL img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: contain;
+
+    border-radius: 12px;
+    flex-shrink: 0;
 }
 
-.Lunelli-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
-}
-
-.SENAI-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
-}
-
-.COOPER-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
-}
-
-.Marisol-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
-}
-
-.AMBIENTAL-foto img{
-    width: 150px; 
-    height: 100px; 
-    object-fit: contain; 
-    margin-bottom: 10px;
-}
-
-.Weg h2{
-    margin: 10px 0;
-}
-
-.Lunelli h2{
-    margin: 10px 0;
-}
-
-.SENAI h2{
-    margin: 10px 0;
-}
-
-.COOPER h2{
-    margin: 10px 0;
-}
-
-.Marisol h2{
-    margin: 10px 0;
-}
-
+/* Área de informações */
+.Weg h2,
+.Lunelli h2,
+.SENAI h2,
+.COOPER h2,
+.Marisol h2,
 .AMBIENTAL h2{
-    margin: 10px 0;
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-.Weg p{
-    text-align: justify; 
-    line-height: 1.5;
-}
-
-.Lunelli p{
-    text-align: justify; 
-    line-height: 1.5;
-}
-
-.SENAI p{
-    text-align: justify; 
-    line-height: 1.5;
-}
-
-.COOPER p{
-    text-align: justify; 
-    line-height: 1.5;
-}
-
-.Marisol p{
-    text-align: justify; 
-    line-height: 1.5;
-}
-
+.Weg p,
+.Lunelli p,
+.SENAI p,
+.COOPER p,
+.Marisol p,
 .AMBIENTAL p{
-    text-align: justify; 
-    line-height: 1.5;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+
+/* =========================
+   CELULAR
+   ========================= */
+
+@media (max-width: 700px){
+
+    .empresas{
+        width: 100%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    .Weg,
+    .Lunelli,
+    .SENAI,
+    .COOPER,
+    .Marisol,
+    .AMBIENTAL{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        padding: 25px;
+        margin-bottom: 35px;
+    }
+
+    .Weg img,
+    .Lunelli img,
+    .SENAI img,
+    .COOPER img,
+    .Marisol img,
+    .AMBIENTAL img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .Weg h2,
+    .Lunelli h2,
+    .SENAI h2,
+    .COOPER h2,
+    .Marisol h2,
+    .AMBIENTAL h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Weg p,
+    .Lunelli p,
+    .SENAI p,
+    .COOPER p,
+    .Marisol p,
+    .AMBIENTAL p{
+        text-align: left;
+        font-size: 16px;
+    }
 }
