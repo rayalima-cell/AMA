@@ -207,6 +207,48 @@ transform: scale(1.03);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
+.Fernanda{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.Fabiane{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.Maria{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
 .foto-Leticia{
     flex-shrink: 0;
 }
@@ -239,6 +281,48 @@ transform: scale(1.03);
 }
 
 .foto-Jane img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 12px;
+}
+
+.foto-Fernanda{
+    flex-shrink: 0;
+}
+
+.foto-Fernanda img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 12px;
+}
+
+.foto-Fabiane{
+    flex-shrink: 0;
+}
+
+.foto-Fabiane img{
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 12px;
+}
+
+.foto-Maria{
+    flex-shrink: 0;
+}
+
+.foto-Maria img{
     width: 220px;
     height: 220px;
 
@@ -300,6 +384,66 @@ transform: scale(1.03);
 }
 
 .informacoes-Jane p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.informacoes-Fernanda{
+    flex: 1;
+}
+
+.informacoes-Fernanda h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Fernanda p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.informacoes-Fabiane{
+    flex: 1;
+}
+
+.informacoes-Fabiane h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Fabiane p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.informacoes-Maria{
+    flex: 1;
+}
+
+.informacoes-Maria h2{
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.informacoes-Maria p{
     color: #555;
     font-size: 16px;
     line-height: 1.7;
