@@ -451,3 +451,125 @@ transform: scale(1.03);
     margin-bottom: 18px;
     text-align: left;
 }
+
+.empresas{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.Weg{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.Lunelli{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.SENAI{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.COOPER{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.Marisol{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.AMBIENTAL{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.Weg-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.Lunelli-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.SENAI-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.COOPER-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.Marisol-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.AMBIENTAL-foto img{
+    width: 150px; 
+    height: 100px; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+.Weg h2{
+    margin: 10px 0;
+}
+
+.Lunelli h2{
+    margin: 10px 0;
+}
+
+.SENAI h2{
+    margin: 10px 0;
+}
+
+.COOPER h2{
+    margin: 10px 0;
+}
+
+.Marisol h2{
+    margin: 10px 0;
+}
+
+.AMBIENTAL h2{
+    margin: 10px 0;
+}
