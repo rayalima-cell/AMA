@@ -573,3 +573,33 @@ transform: scale(1.03);
 .AMBIENTAL h2{
     margin: 10px 0;
 }
+
+.Weg p{
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.Lunelli p{
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.SENAI p{
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.COOPER p{
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.Marisol p{
+    text-align: justify; 
+    line-height: 1.5;
+}
+
+.AMBIENTAL p{
+    text-align: justify; 
+    line-height: 1.5;
+}
